@@ -1,0 +1,85 @@
+  {*
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+
+:root {
+  --mostrando:#7c60e2;
+  --esperando:#5038C6;
+  --flotando:#3d1db2;
+}
+
+body{
+  background: #b8abf4;
+  color: #4429cc;
+  font-family: Poppins, Helvetica, Arial, sans;
+}
+
+.xmas {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.avatar {
+  width: 150px;          
+  height: 150px;         
+  border-radius: 50%;    
+  display: block;        
+  margin: 20px auto;     
+  object-fit: cover;     
+}
+
+
+a[href}]{color:#1a0993;
+}
+
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(calc(90% - 2rem), 500px);
+    height:auto;
+    padding: 1rem;
+    margin: auto;
+    background:#e6e1ff;
+    border-radius: .5rem;
+    z-index: 9999;
+}
+
+p{
+  padding:0.5rem 0;
+}
+
+nav{
+  margin:1rem 0;  
+}
+
+nav a{
+  line-height: 1;
+  text-decoration: none;
+  color:#e6e1ff;
+  margin:0 1rem 0 0;
+  padding:0.3rem 1rem;
+  background:var(--esperando);
+  border-radius: .6rem;
+  transition:all ease .75s;
+}
+
+nav a:hover{
+  color:#897de2;
+  background:var(--flotando);  
+  transition:all ease .75s;
+}
+
+nav a.active{
+  color:#e6e1ff;
+  background:var(--mostrando);
+}
+
+
